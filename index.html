@@ -1,0 +1,156 @@
+<!-- HTML : HYPER Text Language -->
+
+<!-- "<>" => Angular Brackets -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Movie Page</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header><!--Semantic Tag-->
+        <h1 class="topHdng" onclick="switchScreen()">Movie Page</h1>
+
+    </header>
+    <section id="page-1">
+        <img class="poster-bg" src="https://www.altaschool.tech/assets/og.webp" alt="ALTA">
+    </section>
+
+
+    <section id="page-2">
+        <section class="sec-1">
+            <!-- Heading tags-->
+            <h2>Give Rating to the Movies</h2>
+            <h3>Here's the Movie Cards list:</h3>
+            <ul type="circle">
+
+                <li>
+                    <h4>Raw</h4>
+                </li>
+                <li>
+                    <h4>Dhurandhar</h4>
+                </li>
+            </ul>
+
+            <ol type="a">
+
+                <li>
+                    <h4>DDLJ</h4>
+                </li>
+                <li>
+                    <h4>War</h4>
+                </li>
+
+            </ol>
+
+            <h5> Review Shared Below:</h5>
+            <h6>Lorem ipsum dolor sit amet.</h6>
+            <hr>
+
+
+            <!-- Sectioning Tags-->
+
+            <section class="card-section">
+                <div class="card-container">
+                    <div class="card">
+                        <!-- Media Tags-->
+                        <img class="movie-poster"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Ozal5PjeuEhcXGkBleKS--t7fnDbn14jDn4fN9UyWQ&s=10">
+
+                        <!-- Content tag-->
+                        <h2>Movie: Raw</h2>
+                        <p>Cast: John Abraham</p> <!--//16px font-size by default -->
+
+                    </div>
+
+                    <div class="card">
+                        <!-- Media Tags-->
+                        <img class="movie-poster"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQRZ2mLWU9CyyJ9-x4HxmQMRsHkmbki1DcPg&s">
+                        <!-- Content tag-->
+                        <h2>Movie: Dhurandhar</h2>
+                        <p>Cast: Ranveer singh</p> <!--//16px font-size by default -->
+                    </div>
+
+                    <div class="card">
+                        <!-- Media Tags-->
+                        <img class="movie-poster"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXFgqUVzUMvfMtdxwe7rYIJiYanwQ4UykbGQ&s">
+
+                        <!-- Content tag-->
+                        <h2>Movie:DDLJ</h2>
+                        <p>Cast: Shahrukh khan</p> <!--//16px font-size by default -->
+
+
+                    </div>
+            </section>
+
+
+            <div class="links-containar"> <!-- Div tag for vertical arrangement of sections -->
+                <span class="links">
+                    <button class="Rawbtn"><a target="_blank"
+                            href="https://www.youtube.com/watch?v=HSHjC8VdzCM&pp=ygURUmF3IG1vdmllIHRyYWlsZXI%3D">link
+                            to
+                            Raw</a></button>
+                </span> <!-- span tag for horizontal arrangnment of sections-->
+                <span>
+                    <button class="dbtn"><a target="_blank"
+                            href="https://www.youtube.com/watch?v=NHk7scrb_9I&pp=ygUYRGh1cmFuZGhhciBtb3ZpZSB0cmFpbGVy0gcJCT4LAYcqIYzv">link
+                            to Dhurandhar</a></button>
+                </span>
+                <span>
+                    <button class="ddljbtn"><a target="_blank"
+                            href="https://www.youtube.com/watch?v=oIZ4U21DRlM&pp=ygUSRGRsaiBtb3ZpZSB0cmFpbGVy">link
+                            to
+                            DDLJ</a></button>
+                </span>
+
+            </div>
+            <br><br>
+
+            <section class="form section-3 last-section" id="FeedbackForm">
+                <h4>Review form </h4j>
+                    <button onclick="closeFeedback()">x</button>
+                    <form>
+                        <label>Name : </label>
+                        <input type="text" placeholder="Enter Name">
+                        <br>
+                        <label>Age : </label>
+                        <input type="number" placeholder="Enter Age">
+                        <br>
+                        <label>DOB : </label>
+                        <input type="date" placeholder="Enter DOB">
+                        <br>
+                        <label>Time of Reg. : </label>
+                        <input type="text" placeholder="Time of Reg.">
+                        <br>
+                        <label>Review : </label>
+                        <textarea></textarea>
+                        <br>
+                        <button>Sumbit</button>
+
+                    </form>
+            </section>
+
+            <button id="fillFdbckBtn" onclick=" showFeedbackForm()">Fill the feedback</button>
+
+
+
+
+
+
+            <footer>
+                &copy: Specialised fot traning Purpose.
+            </footer>
+        </section>
+        <script src="script.js">
+
+        </script>
+
+</body>
+
+</html>
