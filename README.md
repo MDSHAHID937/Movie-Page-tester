@@ -1,4 +1,4 @@
-# 🎬 Movie Review App
+# 🎬 Movie Review Hub
 
 A modern and responsive **Movie Review** web application built for learning and practice. This project demonstrates how to create a clean user interface, manage movie data, display ratings and reviews, and build a user-friendly browsing experience.
 
